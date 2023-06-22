@@ -20,7 +20,7 @@
         1    0.000    0.000    0.000    0.000 /home/balapriya/profiling-python/main.py:15(useful_func)
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
         
- #profiing output ordered by time
+ #profiing output ordered by time  add to script: profile_result.sort_stats(pstats.SortKey.TIME)
          1008 function calls in 20.020 seconds
 
    Ordered by: internal time
