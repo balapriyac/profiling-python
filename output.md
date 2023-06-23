@@ -1,3 +1,4 @@
+  ```
   # using cProfile in the script
   0
   ...
@@ -48,6 +49,15 @@
         1    0.000    0.000   20.019   20.019 main.py:9(another_func)
         1    0.000    0.000   20.021   20.021 {built-in method builtins.exec}
      1001    0.002    0.000    0.002    0.000 {built-in method builtins.print}
+
+```
+
+![image](https://github.com/balapriyac/profiling-python/assets/47279635/43c13a2a-df5c-47e0-b3eb-2999299245d1)
+![image](https://github.com/balapriyac/profiling-python/assets/47279635/ec42a058-6895-4e30-a6f3-e9d3d211cda1)
+![image](https://github.com/balapriyac/profiling-python/assets/47279635/fbf10352-cf28-4c6d-bc07-12b58dd4b55d)
+
+
+
         1   20.019   20.019   20.019   20.019 {built-in method time.sleep}
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
         1    0.000    0.000    0.000    0.000 {method 'index' of 'list' objects}
